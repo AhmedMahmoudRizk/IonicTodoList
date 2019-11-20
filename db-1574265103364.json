@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "aa",
+      "auther": "aa"
+    },
+    {
+      "id": 7,
+      "title": "aa",
+      "auther": "aa"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "tasks": [
+    {
+      "task": "gjgjgjgj",
+      "id": 226
+    },
+    {
+      "task": "sssssss",
+      "id": 228
+    },
+    {
+      "task": "ffff",
+      "id": 229
+    },
+    {
+      "task": "taskk",
+      "id": 230
+    },
+    {
+      "task": "xxxxxx",
+      "id": 231
+    }
+  ],
+  "profile": [
+    {
+      "name": "aa"
+    }
+  ]
+}
