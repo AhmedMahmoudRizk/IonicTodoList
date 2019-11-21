@@ -18,4 +18,7 @@ export class PostService {
   deletePost(id) {
     return this.httpClient.delete("http://localhost:3000/tasks/" + id)
   }
+  updatePost(id, body) {
+    return this.httpClient.put("http://localhost:3000/tasks/" + id, body)
+  }
 }

@@ -46,20 +46,40 @@ export class HomePage {
         text: 'Update', handler: (data) => {
           console.log(data.editTask);
           // this.posts[i].task = data.editTask;
-          let body = { task: data.editTask }
-          // console.log(index)
-          this.postService.deletePost(index).subscribe();
-          this.postService.addPost(body).subscribe(
+          let body = { task: data.editTask, id: index }
+          this.postService.updatePost(index, body).subscribe(
             (sucess) => {
-              console.log(sucess + "---------");
+              console.log(sucess);
               this.posts[i].id = sucess.id;
               this.posts[i].task = sucess.task;
+              //this.posts.splice(i, 1)
+              //this.posts.push(sucess)
               console.log(this.posts[i])
             },
             (err) => {
               console.log(err);
             }
           )
+          // this.posts[i].task = data.editTask
+          // console.log(index)
+          // this.postService.deletePost(index).subscribe(
+          //   (sucess) => {
+          //     this.postService.addPost(body).subscribe(
+          //       (sucess) => {
+          //         console.log(sucess);
+          //          this.posts[i].id = sucess.id;
+          //          this.posts[i].task = sucess.task;
+          //         //this.posts.splice(i, 1)
+          //         //this.posts.push(sucess)
+          //         console.log(this.posts[i])
+          //       },
+          //       (err) => {
+          //         console.log(err);
+          //       }
+          //     )
+          //   },
+          // )
+
           // this.postService.addPost(body).subscribe(
           //   (sucess) => {
           //     console.log(sucess);
