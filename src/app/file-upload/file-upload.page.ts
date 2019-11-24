@@ -28,12 +28,12 @@ export class FileUploadPage implements OnInit {
     // POST formData to Server
     console.log(formData.get('files[]'));
 
-    this.fileUploadService.uploadFile(formData).subscribe((sucess) => {
-      console.log(sucess);
-    },
-      (err) => {
-        console.log(err);
-      })
+    // this.fileUploadService.uploadFile(formData).subscribe((sucess) => {
+    //   console.log(sucess);
+    // },
+    //   (err) => {
+    //     console.log(err);
+    //   })
 
   }
 
