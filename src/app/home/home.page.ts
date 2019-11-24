@@ -50,8 +50,8 @@ export class HomePage {
           this.postService.updatePost(index, body).subscribe(
             (sucess) => {
               console.log(sucess);
-              this.posts[i].id = sucess.id;
-              this.posts[i].task = sucess.task;
+              this.posts[i]=sucess;
+              // this.posts[i].task = sucess.task;
               //this.posts.splice(i, 1)
               //this.posts.push(sucess)
               console.log(this.posts[i])

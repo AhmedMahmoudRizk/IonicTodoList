@@ -40,7 +40,7 @@ export class LoginPage implements OnInit {
     for (let entry of this.users) {
       console.log(entry);
       if (entry.name == this.usern)
-        this.r.navigate(['home']);
+        this.r.navigate(['file-upload']);
     }
 
 

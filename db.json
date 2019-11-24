@@ -1,49 +1,52 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "json-server",
-            "author": "typicode"
-        },
-        {
-            "id": 3,
-            "title": "aa",
-            "auther": "aa"
-        },
-        {
-            "id": 7,
-            "title": "aa",
-            "auther": "aa"
-        }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
-        }
-    ],
-    "tasks": [
-        {
-            "task": "cccs",
-            "id": 259
-        },
-        {
-            "task": "gaga",
-            "id": 260
-        },
-        {
-            "task": "jjjfj",
-            "id": 261
-        },
-        {
-            "task": "jjgjjgjjgj",
-            "id": 262
-        }
-    ],
-    "profile": [
-        {
-            "name": "aa"
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "aa",
+      "auther": "aa"
+    },
+    {
+      "id": 7,
+      "title": "aa",
+      "auther": "aa"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "tasks": [
+    {
+      "task": "cccs",
+      "id": 259
+    },
+    {
+      "task": "hfhfh",
+      "id": 261
+    },
+    {
+      "task": "jjgjjgjjgj",
+      "id": 262
+    },
+    {
+      "task": "aa",
+      "id": 263
+    }
+  ],
+  "files": [
+
+  ],
+  "profile": [
+    {
+      "name": "aa"
+    }
+  ]
 }
