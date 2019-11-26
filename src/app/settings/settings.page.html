@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      {{'Settings' | translate:params }}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p>{{'ahmed' | translate:params}}</p>
+  <ion-list>
+    <ion-item>
+      <ion-label>{{ 'SelectLang' | translate:params }}</ion-label>
+      <ion-select okText="{{ 'ok' | translate:params }}" cancelText="{{ 'cancel' | translate:params }}"
+        placeholder="{{ 'SelectLang' | translate:params }}" [(ngModel)]="selectedLanguage"
+        (ionChange)="languageChanged()">
+        <ion-select-option value="en">{{ 'English' | translate:params }}</ion-select-option>
+        <ion-select-option value="ar">{{ 'Arabic' | translate:params }}</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+
+
+</ion-content>

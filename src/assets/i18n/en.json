@@ -1,0 +1,10 @@
+{
+    "title": "Ionic 4 Multi Language Translation",
+    "text": "This is random text to show translation in application",
+    "English": "English",
+    "Arabic": "Arabic",
+    "SelectLang": "Select Language",
+    "ok": "OK",
+    "ahmed": "Ahmed",
+    "cancel": "Cancel"
+}
